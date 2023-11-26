@@ -1,0 +1,168 @@
+body{
+    padding: 5px;
+}
+.banner{
+    background-image: url("./back.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover ;
+    background-position: center;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0px 10px 0 10px;
+    font-size: 19px;
+    cursor: pointer;
+}
+.welcome{
+    margin-top: 50px;
+}
+.welcome h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.welcome h2{
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+.welcome p{
+    font-size: 20px;
+}
+.start{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 5px;
+}
+.learn{
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-weight: lighter;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.content h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.content p{
+    font-size: 20px;
+    font-weight: lighter;
+    word-spacing: 5px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.card{
+    height: 60vh;
+    width: 30%;
+    justify-content: center ;
+    border: transparent;
+}
+.card img{
+    margin-top: -140px;
+}
+.card p{
+    font-size: 20px;
+    font-weight: 400;
+    word-spacing: 2%;
+    word-spacing: normal;
+}
+.card button{
+    margin-top: 21px;
+    border: none;
+    width: 250px;
+    text-align: left;
+    color: gray;
+    text-decoration: underline;
+}
+.signup{
+    background-color: rgb(241, 239, 239);
+}
+.first{
+    margin-top: 100px;
+}
+.grid-container{
+    height: 90vh;
+    width: 65%;
+    width: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.page1{
+    grid-column: span 2;
+}
+.page2{
+    gap: 5px;
+    width: 90%;
+}
+.page3{
+    gap: 5px;
+    width: 90%;
+}
+.page4{
+    gap: 5px;
+    width: 90%;
+}
+.page5{
+    gap: 5px;
+    width: 90%;
+}
+.signup-container{
+    background-color: white;
+    height: 75vh;
+    width: 30%;
+    position: relative;
+    top : -700px;
+    left: 1100px;
+    text-align: center;
+}
+.page img{
+    height: 150px;
+    width: 150px;
+    margin-top: 50px;
+}
+.page h1{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.page p{
+    font-weight: 400;
+    padding: 10px;
+}
+.info{
+    background-color: rgb(241, 239, 239);
+    width: 70%;
+    height: 50px;
+    border: none;
+    text-align: center;
+}
+.page button{
+    background-color: black;
+    margin-top: 30px;
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    color: white;
+}
+.footer{
+    margin-top: -600px;
+}
+.footer img{
+    margin-left: -42px;
+}
